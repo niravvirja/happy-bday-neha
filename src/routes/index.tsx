@@ -214,12 +214,6 @@ function EnvelopePage() {
 
                 {!blown ? (
                   <>
-                    {!started ? (
-                      <p className="inline-flex items-center justify-center gap-1.5 text-[0.55rem] uppercase tracking-[0.38em] text-muted-foreground">
-                        <MicrophoneIcon weight="fill" className="h-3 w-3" />
-                        then blow toward your mic
-                      </p>
-                    ) : null}
                     <div className="flex h-20 shrink-0 items-end justify-center pb-3">
                       {!started ? (
                         <button
